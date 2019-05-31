@@ -8,7 +8,7 @@ using System.Windows;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Grafik")]
-[assembly: AssemblyCopyright("Maksymilian Wojnar © 2019")]
+[assembly: AssemblyCopyright("© 2019 Maksymilian Wojnar")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]

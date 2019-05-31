@@ -3,7 +3,7 @@ Grafik to prosty program, który pozwala narysować na ekranie komputera nawet n
 
 ## Informacje
 
-Po więcej szczegółów zapraszam na stronę poświęconą projektowi "Grafik": [maximax579.github.io](maximax579.github.io)
+Po więcej szczegółów zapraszam na stronę poświęconą projektowi "Grafik": [maximax579.github.io](https://maximax579.github.io)
 
 ## Technologie
 

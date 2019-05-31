@@ -1,0 +1,24 @@
+﻿<Window x:Class="Grafik.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Grafik.Views"
+        mc:Ignorable="d"
+        Title="Grafik" Height="733" Width="1011" WindowStartupLocation="CenterScreen" SizeChanged="Window_SizeChanged" MinWidth="770" MinHeight="550" Icon="../Resources/icon.ico" Activated="Window_Activated" KeyDown="Window_KeyDown">
+    <Grid>
+        <Canvas x:Name="canvas" Margin="0,0,300,0" />
+        <ListBox x:Name="listBox" Margin="0,0,0,150" HorizontalAlignment="Right" Width="300" BorderThickness="0" Background="#FFF0F0F0"/>
+        <Grid HorizontalAlignment="Right" Height="150" VerticalAlignment="Bottom" Width="300" Background="#FFF0F0F0">
+            <Button x:Name="addButton" Content="Dodaj" Margin="0,0,149,100" Click="AddButton_Click" BorderThickness="0" Background="#FF00B9FF" FontSize="17" />
+            <Button x:Name="deleteButton" Content="Usuń" Margin="151,0,0,100" Click="DeleteButton_Click" BorderThickness="0" Background="#FF00FF97" FontSize="17"/>
+            <Slider x:Name="xSlider" HorizontalAlignment="Left" Margin="36,73,0,0" VerticalAlignment="Top" Width="210" Maximum="500" Value="100" Minimum="5" ValueChanged="XSlider_ValueChanged"/>
+            <Slider x:Name="ySlider" HorizontalAlignment="Left" Margin="36,111,0,0" VerticalAlignment="Top" Width="210" Maximum="500" Minimum="5" Value="100" ValueChanged="YSlider_ValueChanged"/>
+            <Label Content="x:" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top" FontSize="16"/>
+            <Label x:Name="xLabel" Content="1,00x" HorizontalAlignment="Left" Margin="247,66,0,0" VerticalAlignment="Top" FontSize="16"/>
+            <Label Content="y:" HorizontalAlignment="Left" Margin="10,101,0,0" VerticalAlignment="Top" FontSize="16"/>
+            <Label x:Name="yLabel" Content="1,00x" HorizontalAlignment="Left" Margin="247,104,0,0" VerticalAlignment="Top" FontSize="16"/>
+        </Grid>
+
+    </Grid>
+</Window>

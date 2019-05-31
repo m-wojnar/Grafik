@@ -1,0 +1,20 @@
+﻿<Window x:Class="Grafik.Views.AddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Grafik.Views"
+        mc:Ignorable="d"
+        Title="Dodaj" Height="190" Width="471"  Icon="../Resources/icon.ico" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FFF0F0F0">
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled" Margin="0,0,0,76">
+            <Label x:Name="functionLabel" Content="f(x) = " HorizontalAlignment="Left" Margin="10,12,0,0" VerticalAlignment="Top"  FontSize="18" />
+        </ScrollViewer>
+        <TextBox x:Name="aText" HorizontalAlignment="Left" Height="42" Margin="10,99,0,0" VerticalAlignment="Top" Width="82" FontSize="17" VerticalScrollBarVisibility="Disabled" HorizontalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" PreviewTextInput="AText_PreviewTextInput"/>
+        <TextBox x:Name="nText" HorizontalAlignment="Left" Height="22" Margin="121,90,0,0" VerticalAlignment="Top" Width="41" FontSize="14" VerticalScrollBarVisibility="Disabled" PreviewTextInput="NText_PreviewTextInput"/>
+        <Button x:Name="addButton" Content="+" HorizontalAlignment="Left" Margin="181,94,0,0" VerticalAlignment="Top" Width="50" Height="50" FontSize="26" BorderThickness="0" Background="#00000000" Click="AddButton_Click"/>
+        <Button x:Name="readyButton" Content="Gotowe" HorizontalAlignment="Left" Margin="315,94,0,0" VerticalAlignment="Top" Width="108" Height="50" BorderThickness="0" Background="#FF00B9FF" FontSize="17" Click="ReadyButton_Click"/>
+        <Label Content="x" HorizontalAlignment="Left" Margin="93,97,0,0" VerticalAlignment="Top" FontSize="22"/>
+
+    </Grid>
+</Window>

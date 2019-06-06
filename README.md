@@ -1,16 +1,16 @@
 # Grafik
-Grafik to prosty program, który pozwala narysować na ekranie komputera nawet najbardziej skomplikowane wykresy funkcji wielomianowych
+Grafik is a simple program that lets you visualise even the most complicated polynomial functions on your computer screen
 
-## Informacje
+## Information
 
-Po więcej szczegółów zapraszam na stronę poświęconą projektowi "Grafik": [maximax579.github.io](https://maximax579.github.io)
+For more information, please visit my website dedicated to the "Grafik" project: [maximax579.github.io](https://maximax579.github.io)
 
-## Technologie
+## Technologies
 
-Program został napisany dla platformy .NET Framework w wersji 4.7.2 i przeznaczony do uruchamiania w systemie Windows
+Program was written for .NET Framework 4.7.2 and it was designed for Windows system
 
-## Licencja
+## License
 
-Program został udostępniony na licencji GNU GPL v3, aby każdy mógł z niego korzystać, a także pomóc w rozwoju projektu
+Program was published on GNU GPL v3 License, so that everybody can use it and help to contribute it
 
 Copyright (C) 2019 Maksymilian Wojnar

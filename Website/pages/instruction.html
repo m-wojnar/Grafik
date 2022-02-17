@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta name="author" content="Maksymilian Wojnar" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Grafik</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" href="../resources/icon.ico" />
+</head>
+<body>
+    <div class="container">
+        <div class="row menu">
+            <img src="../resources/icon.png" alt="" />
+            <a href="../index.html" class="menu-item">Strona główna</a>
+            <a href="instruction.html" class="menu-item">Instrukcja</a>
+            <a href="installation.html" class="menu-item">Instalacja</a>
+            <a href="author.html" class="menu-item">Autor</a>
+            <div style="clear: both"></div>
+        </div>
+        <div class="gradient"></div>
+        <div class="row main pages">
+            <div class="col">
+                <h1>Instrukcja</h1>
+                <br />
+                <p>
+                    Program "Grafik" służy do szkicowania funkcji wielomianowych jednej zmiennej na ekranie komputera. Oto jego podstawowe funkcje:
+                </p>
+                <br />
+                <h5>Dodawanie fukcji</h5>
+                <ol>
+                    <li>Mając otwarty ekran główny aplikacji naciśnij przycisk "Dodaj"</li>
+                    <li>
+                        W oknie dodawania należy wpisać wzór danej fukcji:
+                        <ul>
+                            <li>Jeżeli Twoja funkcja składa się z jednego wyrażenia, np. 5x&#178;, w polu do wpisywania cyfr po lewej stronie na dole wpisz "5" (można wpisywać tylko liczby rzeczywiste), w polu po prawej stronie nad znakiem "x" wpisz "2" (można wpisywać tylko liczby naturalne), a następnie naciśnij przycisk "+"</li>
+                            <li>Wyrażenia takie jak x to cyfry "1" i "1" odpowienio w prawym i lewym poku, a wyrazy wolne, np. 5 to odpowiednio "0" i "5" w danych polach</li>
+                            <li>Jeżeli Twoja funkcja składa się z sumy takich wyrażeń, dodaj pierwsze wyrażenie w opisany w pierwszym podpunkcie sposób, a następnie powtórz daną procedurę z każdym kolejnym elementem sumy</li>
+                        </ul>
+                    </li>
+                    <li>Naciśnij przycisk "Gotowe"</li>
+                    <li>Program automatycznie uporządkuje daną funkcję, wylosuje kolor wykresu nowej funkcji, doda ją do listy z prawej strony oraz wyświetli wykres w układzie współrzędnych</li>
+                </ol>
+                <div class="image-box">
+                    <img src="../resources/screen3.jpg" alt="" class="instr-img" />
+                </div>
+                <h5>Usuwanie fukcji</h5>
+                <ol>
+                    <li>Zaznacz kliknięciem myszą na liście po prawej stronie wzór funkcji, którą chcesz usunąć</li>
+                    <li>Naciśnij przycisk "Usuń"</li>
+                    <li>Program usunie wybraną fukncję z listy oraz układu współrzędnych</li>
+                </ol>
+                <div class="image-box">
+                    <img src="../resources/screen4.jpg" alt="" class="instr-img" />
+                </div>
+                <h5>Skalowanie osi</h5>
+                <ol>
+                    <li>Jeżeli potrzebujesz zobaczyć wykres funkcji w większym przedziale dziedziny lub chcesz dokładniej zobaczyć otoczenie funkcji w okolicy początku układu współrzędnych, przesuń w odpowiednią stronę suwak znajdujący się w prawym dolnym rogu oraz oznaczony napisem "x:" po jego lewej stronie</li>
+                    <li>Jeżeli potrzebujesz zobaczyć wykres funkcji w większym przedziale zbioru wartości lub chcesz dokładniej zobaczyć otoczenie funkcji w okolicy początku układu współrzędnych, przesuń w odpowiednią stronę suwak znajdujący się w prawym dolnym rogu oraz oznaczony napisem "y:" po jego lewej stronie</li>
+                </ol>
+            </div>
+        </div>
+        <footer>
+            &#x24B8; 2019 Maksymilian Wojnar
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../script/parallax.js-1.5.0/parallax.min.js"></script>
+</body>
+</html>

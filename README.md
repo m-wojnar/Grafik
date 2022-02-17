@@ -3,7 +3,7 @@ Grafik is a simple program that lets you visualise even the most complicated pol
 
 ## Information
 
-For more information, please visit my website dedicated to the "Grafik" project: [maximax579.github.io](https://maximax579.github.io)
+For more information, please visit my [website](https://github.com/m-wojnar/Grafik/tree/master/Website) dedicated to the "Grafik" project.
 
 ## Technologies
 
